@@ -1,0 +1,437 @@
+:toc:
+:sectnums:
+:toclevels: 5
+:sectnumlevels: 5
+:showcomments:
+:xrefstyle: short
+:icons: font
+:source-highlighter: coderay
+:tick: &#x2714;
+:pound: &#xA3;
+
+= Title
+
+|===
+|Gavia arctica|Potáplice severní|Black-throated Diver
+|Gavia immer|Potáplice lední|Great Northern Diver
+|Gavia adamsii|Potáplice žlutozobá|White-billed Diver
+|Tachybaptus ruficollis|Potápka malá|Little Grebe
+|Podiceps cristatus|Potápka roháč|Great Crested Grebe
+|Podiceps grisegena|Potápka rudokrká|Red-necked Grebe
+|Podiceps auritus|Potápka žlutorohá|Slavonian Grebe
+|Podiceps nigricollis|Potápka černokrká|Black-necked Grebe
+|Fulmarus glacialis|Buřňák lední|Fulmar
+|Calonectris diomedea|Buřňák šedý|Cory´s Shearwater
+|Hydrobates pelagicus|Buřňáček malý|Storm Petrel
+|Morus bassanus|Terej bílý|Gannet
+|Phalacrocorax carbo|Kormorán velký|Cormorant
+|Phalacrocorax aristotelis|Kormorán chocholatý|Shag
+|Phalacrocorax pygmeus|Kormorán malý|Pygmy Cormorant
+|Pelecanus onocrotalus|Pelikán bílý|White Pelican
+|Pelecanus occidentalis|Pelikán hnedý|Brown Pelican
+|Botaurus stellaris|Bukač velký|Bittern
+|Ixobrychus minutus|Bukaček malý|Little Bittern
+|Nycticorax nycticorax|Kvakoš noční|Night Heron
+|Ardeola ralloides|Volavka vlasatá|Squacco Heron
+|Bubulcus ibis|Volavka rusohlavá|Cattle Egret
+|Egretta garzetta|Volavka stříbřitá|Little Egret
+|Egretta alba|Volavka bílá|Great White Egret
+|Ardea cinerea|Volavka popelavá|Grey Heron
+|Ardea purpurea|Volavka červená|Purple Heron
+|Ciconia nigra|Čáp černý|Black Stork
+|Ciconia ciconia|Čáp bílý|White Stork
+|Leptoptilos crumeniferus|Marabu africký|Marabou Stork
+|Plegadis falcinellus|Ibis hnědý|Glossy Ibis
+|Threskiornis aethiopicus|Ibis posvátný|Sacred Ibis
+|Platalea leucorodia|Kolpík bílý|Spoonbill
+|Platalea alba|Kolpík africký| Unknown
+|Phoenicopterus ruber|Plameňák růžový|Greater Flamingo
+|Phoenicopterus chilensis|Plameňák chilský|Unknown
+|Cygnus olor|Labuť velká|Mute Swan
+|Cygnus columbianus|Labuť malá|Bewick´s Swan
+|Cygnus cygnus|Labuť zpěvná|Whooper Swan
+|Cygnus atratus|Labuť černá|Black Swan
+|Anser fabalis|Husa polní|Bean Goose
+|Anser brachyrhynchus|Husa krátkozobá|Pink-footed Goose
+|Anser albifrons|Husa běločelá|White-fronted Goose
+|Anser erythopus|Husa malá|Lesser White-fronted Goose
+|Anser anser|Husa velká|Greylag Goose
+|Anser caerulescens|Husa sněžní|Snow Goose
+|Anser indicus|Husa indická (tibetská)|Bar-headed Goose
+|Dendrocygna arcuata|Husička stěhovavá|Wandering Whistling Duck
+|Dendrocygna viduata|Husička vdova|White-faced Whistling Duck
+|Branta canadiensis|Berneška velká|Canada Goose
+|Branta leucopsis|Berneška bělolící|Barnacle Goose
+|Branta bernicla|Berneška tmavá|Brent Goose
+|Branta ruficollis|Berneška rudokrká|Red-breasted Goose
+|Tadorna ferruginea|Husice rezavá|Ruddy Shelduck
+|Tadorna tadorna|Husice liščí|Shelduck
+|Alopochen aegypticus|Husice nilská|Egyptian Goose
+|Aix sponsa|Kachnička karolínská|Wood Duck
+|Aix galericulata|Kachnička mandarinská|Mandarin Duck
+|Anas penelope|Hvízdák euroasijský|Wigeon
+|Anas americana|Hvízdák americký|American Wigeon
+|Anas sibilatrix|Hvízdák stejnobarvý|Chiloe Wigeon
+|Anas strepera|Kopřivka obecná|Gadwall
+|Anas crecca|Čírka obecná|Teal
+|Anas discors|Čírka modrokřídlá|Blue-winged Teal
+|Anas platyrhychos|Kachna divoká|Mallard
+|Anas acuta|Ostralka štíhlá|Pintail
+|Anas bahamensis|Ostralka bělolící|Bahama Pintail
+|Anas querquedula|Čírka modrá|Garganey
+|Anas clypeata|Lžičák pestrý|Shoveler
+|Marmaronetta (Anas) angustirostris|Čírka úzkozobá|Marbled Duck
+|Netta rufina|Zrzohlávka rudozobá|Red-crested Pochard
+|Aythya ferina|Polák velký|Pochard
+|Aythya nyroca|Polák malý|Ferruginous Duck
+|Aythya fuligula|Polák chocholačka|Tufted Duck
+|Aythya marila|Polák kaholka|Scaup
+|Aythya collaris|Polák proužkozobý|Ring-necked Duck
+|Somateria mollissima|Kajka mořská|Eider
+|Somateria spectabilis|Kajka královská|King Eider
+|Polysticta stelleri|Kajka Stellerova|Steller´s Eider
+|Clangula hyemalis|Hoholka lední|Long-tailed Duck
+|Histrionicus histrionicus|Kačka strakatá (pestrá)|Harlequin Duck
+|Melanitta nigra|Turpan černý|Common Scoter
+|Melanitta perspicillata|Turpan pestrozobý|Surf Scoter
+|Melanitta fusca|Turpan hnědý|Velvet Scoter
+|Bucephala islandica|Hohol islandský|Barrow's Goldeneye
+|Bucephala clangula|Hohol severní|Goldeneye
+|Bucephala albeola|Hohol bělavý|Bufflehead
+|Mergus albellus|Morčák bílý|Smew
+|Mergus serrator|Morčák prostřední|Red-breasted Merganser
+|Mergus merganser|Morčák velký|Goosander
+|Mergus cucullatus|Morčák chocholatý|Hooded Merganser
+|Oxyura leucocephala|Kachnice bělohlavá|White-headed Duck
+|Oxyura jamaicensis|Kachnice kaštanová|Ruddy Duck
+|Pernis apivorus|Včelojed lesní|Honey Buzzard
+|Elanus caeruleus|Luněc šedý|Black-shouldered Kite
+|Milvus migrans|Luňák hnědý|Black Kite
+|Milvus milvus|Luňák červený|Red Kite
+|Haliaeetus albicilla|Orel mořský|White-tailed Eagle
+|Neophron percnopterus|Sup mrchožravý|Egyptian Vulture
+|Gyps fulvus|Sup bělohlavý|Griffon Vulture
+|Aegypius monachus|Sup hnědý|Black Vulture
+|Circaetus gallicus|Orlík krátkoprstý|Short-toed Eagle
+|Circus aeruginosus|Moták pochop|Marsh Harrier
+|Circus cyaneus|Moták pilich|Hen Harrier
+|Circus macrourus|Moták stepní|Pallid Harrier
+|Circus pygargus|Moták lužní|Montagu's Harrier
+|Accipiter gentilis|Jestřáb lesní|Goshawk
+|Accipiter nisus|Krahujec obecný|Sparrowhawk
+|Accipiter brevipes|Krahujec krátkoprstý|Levant Sparrowhawk
+|Buteo buteo|Káně lesní|Buzzard
+|Buteo rufinus|Káně bělochvostá|Long-legged Buzzard
+|Buteo lagopus|Káně rousná|Rough-legged Buzzard
+|Aquila pomarina|Orel křiklavý|Lesser Spotted Eagle
+|Aquila clanga|Orel volavý|Spotted Eagle
+|Aquila nipalensis|Orel stepní|Tawny Eagle
+|Aquila heliaca|Orel královský|Imperial Eagle
+|Aquila chrysaetos|Orel skalní|Golden Eagle
+|Hieraaetus pennatus|Orel nejmenší|Booted Eagle
+|Hieraaetus fasciatus|Orel jestřábí|Bonelli´s Eagle
+|Pandion haliaetus|Orlovec říčný|Osprey
+|Falco naumanni|Poštolka jižní|Lesser Kestrel
+|Falco tinnunculus|Poštolka obecná|Kestrel
+|Falco vespertinus|Poštolka rudonohá|Red-footed Kestrel
+|Falco columbarius|Dřemlík tundrový|Merlin
+|Falco subbuteo|Ostříž lesní|Hobby
+|Falco eleonorae|Ostříž jižní|Eleonora´s Falcon
+|Falco biarmicus|Raroh jižní|Lanner
+|Falco cherrug|Raroh velký|Saker
+|Falco rusticolus|Raroh lovecký|Gyrfalcon
+|Falco peregrinus|Sokol stěhovavý|Peregrine
+|Bonasa bonasia|Jeřábek lesní|Hazel Grouse
+|Tetrao tetrix|Tetřívek obecný|Black Grouse
+|Tetrao urogallus|Tetřev hlušec|Capercaillie
+|Perdix perdix|Koroptev polní|Grey Partridge
+|Coturnix coturnix|Křepelka polní|Quail
+|Phasianus colchicus|Bažant obecný|Pheasant
+|Syrmaticus reevesi|Bažant královský|Reeves´s Phaesant
+|Rallus aquaticus|Chřástal vodní|Water Rail
+|Porzana porzana|Chřástal kropenatý|Spotted Crake
+|Porzana parva|Chřástal malý|Little Crake
+|Porzana pusilla|Chřástal nejmenší|Baillon´s Crake
+|Crex crex|Chřástal polní|Corncrake
+|Gallinula chloropus|Slípka zelenonohá|Moorhen
+|Porphyrio porphyrio|Slípka modrá|Purple Gallinule
+|Fulica atra|Lyska černá|Coot
+|Grus grus|Jeřáb popelavý|Crane
+|Grus antigone|Jeřáb Antigonin|Sarus Crane
+|Tetrax terax|Drop malý|Little Bustard
+|Chlamydotis undulata|Drop obojkový|Houbara Bustard
+|Otis tarda|Drop velký|Great Bustard
+|Haematopus ostralegus|Ústřičník velký|Oystercatcher
+|Himantopus himantopus|Pisila čáponohá|Black-winged Stilt
+|Recurvirostra avosetta|Tenkozobec opačný|Avocet
+|Burhinus oedicnemus|Dytík úhorní|Stone Curlew
+|Cursorius cursor|Běhulík plavý|Cream-coloured Courser
+|Glareola pratincola|Ouhorlík stepní|Collared Pratincole
+|Glareola nordmanni|Ouhorlík černokřídlý|Black-winged Praticole
+|Charadrius dubius|Kulík říční|Little Ringed Plover
+|Charadrius hiaticula|Kulík písečný|Ringed Plover
+|Charadrius alexandrinus|Kulík mořský|Kentish Plover
+|Charadrius morinellus|Kulík hnědý|Dotterel
+|Pluvialis dominica|Kulík hnědokřídlý|Lesser Golden Plover
+|Pluvialis apricaria|Kulík zlatý|Golden Plover
+|Pluvialis squatarola|Kulík bledý|Grey Plover
+|Hoplopterus spinosus|Čejka trnitá|Spur-winged Plover
+|Chettusia gregaria|Keptuška stepní|Sociable Plover
+|Chettusia leucurus|Keptuška běloocasá|White-tailed Plover
+|Vanellus vanellus|Čejka chocholatá|Lapwing
+|Calidris canutus|Jespák rezavý|Knot
+|Calidris alba|Jespák písečný|Sanderling
+|Calidris minuta|Jespák malý|Little Stint
+|Calidris temminckii|Jespák šedý|Temminck´s Stint
+|Calidris bairdii|Jespák dlouhokřídlý|Baird´s Sandpiper
+|Calidris melanotos|Jespák skvrnitý|Pectoral Sandpiper
+|Calidris ruficollis|Jespák rudohrdlý|Red-necked Stint
+|Calidris ferruginea|Jespák křivozobý|Curlew Sandpiper
+|Calidris maritima|Jespák mořský|Purple Sandpiper
+|Calidris alpina|Jespák obecný|Dunlin
+|Calidris fuscicollis|Jespák tundrový|White-rumped Sandpiper
+|Limicola falcinellus|Jespáček ploskozobý|Broad-billed Sandpiper
+|Tryngites subruficollis|Jespák plavý|Buff-breasted Sandpiper
+|Philomachus pugnax|Jespák bojovný|Ruff
+|Lymnocryptes minimus|Slučka malá|Jack Snipe
+|Gallinago gallinago|Bekasina otavní|Snipe
+|Gallinago media|Bekasina větší|Great Snipe
+|Scolopax rusticola|Sluka lesní|Woodcock
+|Limosa limosa|Břehouš černoocasý|Black-tailed Godwit
+|Limosa lapponica|Břehouš rudý|Bar-tailed Godwit
+|Numenius phaeopus|Koliha malá|Whimbrel
+|Numenius tenuirostris|Koliha tenkozobá|Slender-billed Curlew
+|Numenius arquata|Koliha velká|Curlew
+|Tringa erythropus|Vodouš tmavý|Spotted Redshank
+|Tringa totanus|Vodouš rudonohý|Redshank
+|Tringa stagnatilis|Vodouš štíhlý|Marsh Sandpiper
+|Tringa nebularia|Vodouš šedý|Greenshank
+|Tringa melanoleuca|Vodouš velký|Greater Yellowlegs
+|Tringa ochropus|Vodouš kropenatý|Green Sandpiper
+|Tringa glareola|Vodouš bahenní|Wood Sandpiper
+|Xenus cinereus|Vodouš malý|Terek Sandpiper
+|Actitis hypoleuca|Pisík obecný|Common Sandpiper
+|Arenaria interpres|Kamenáček pestrý|Turnstone
+|Phalaropus lobatus|Lyskonoh úzkozobý|Red-necked Phalarope
+|Phalaropus fulicarius|Lyskonoh ploskozobý|Grey Phalarope
+|Stercorarius pomarinus|Chaluha pomořanská|Pomarine Skua
+|Stercorarius parasiticus|Chaluha příživná|Arctic Skua
+|Stercorarius longicaudus|Chaluha malá|Long-tailed Skua
+|Stercorarius skua|Chaluha velká|Great Skua
+|Larus ichtyaetus|Racek velký|Great Black-headed Gull
+|Larus melanocephalus|Racek černohlavý|Mediterranean Gull
+|Larus minutus|Racek malý|Little Gull
+|Larus sabini|Racek Sabinův|Sabine´s Gull
+|Larus philadelphia|Racek Bonapartův|Bonaparte´s Gull
+|Larus ridibundus|Racek chechtavý|Black-headed Gull
+|Larus audouinii|Racek Audouinův|Audouin´s Gull
+|Larus delawarensis|Racek delawarský|Ring-billed Gull
+|Larus canus|Racek bouřní|Common Gull
+|Larus fuscus|Racek žlutonohý|Lesser Black-backed Gull
+|Larus argentatus|Racek stříbřitý|Herring Gull
+|Larus cachinnans|Racek bělohlavý|Yellow-legged Gull
+|Larus glaucoides|Racek polární|Iceland Gull
+|Larus hyperboreus|Racek šedý|Glaucous Gull
+|Larus marinus|Racek mořský|Great Black-backed Gull
+|Rissa tridactyla|Racek tříprstý|Kittiwake
+|Sterna (Gelochelidon) nilotica|Rybák černozobý|Gull-billed Tern
+|Sterna caspia|Rybák velkozobý|Caspian Tern
+|Sterna sandvicensis|Rybák severní|Sandwich Tern
+|Sterna hirundo|Rybák obecný|Common Tern
+|Sterna paradisaea|Rybák dlouhoocasý|Arctic Tern
+|Sterna albifrons|Rybák malý|Little Tern
+|Chlidonias hybridus|Rybák bahenní|Whiskered Tern
+|Chlidonias niger|Rybák černý|Black Tern
+|Chlidonias leucopterus|Rybák bělokřídlý|White-winged Black Tern
+|Uria aalge|Alkoun úzkozobý|Guillemot
+|Alca torda|Alka malá|Razorbill
+|Cepphus grylle|Alkoun obecný|Black Guillemot
+|Alle alle|Alkoun malý|Little Auk
+|Syrrhaptes paradoxus|Stepokur kirgizský|Pallas´s Sandgrouse
+|Columba livia f. domestica|Holub domácí|Domestic Pigeon
+|Columba oenas|Holub doupňák|Stock Dove
+|Columba palumbus|Holub hřivnáč|Woodpigeon
+|Streptopelia decaocto|Hrdlička zahradní|Collared Dove
+|Streptopelia turtur|Hrdlička divoká|Turtle Dove
+|Myiopsitta monachus|Papoušek mniší (Mníšek šedý)|Monk Parakeet (Quaker Parakeet)
+|Melopsittacus undulatus|Papoušek vlnkovaný|Budgerigar
+|Cuculus canorus|Kukačka obecná|Cuckoo
+|Tyto alba|Sova pálená|Barn Owl
+|Otus scops|Výreček malý|Scops Owl
+|Bubo bubo|Výr velký|Eagle Owl
+|Nyctea scandiaca|Sovice sněžní|Snowy Owl
+|Surnia ulula|Sovice krahujová|Hawk Owl
+|Glaucidium passerinum|Kulíšek nejmenší|Pygmy Owl
+|Athene noctua|Sýček obecný|Little Owl
+|Strix aluco|Puštík obecný|Tawny Owl
+|Strix uralensis|Puštík bělavý|Ural Owl
+|Asio otus|Kalous ušatý|Long-eared Owl
+|Asio flammeus|Kalous pustovka|Short-eared Owl
+|Aegolius funereus|Sýc rousný|Tengmalm´s Owl
+|Caprimulgus europaeus|Lelek lesní|Nightjar
+|Apus apus|Rorýs obecný|Swift
+|Apus melba|Rorýs velký|Alpine Swift
+|Alcedo atthis|Ledňáček říční|Kingfischer
+|Merops apiaster|Vlha pestrá|Bee-eater
+|Coracias garrulus|Mandelík hajní|Roller
+|Upupa epops|Dudek chocholatý|Hoopoe
+|Jynx torquilla|Krutihlav obecný|Wryneck
+|Picus canus|Žluna šedá|Grey-headed Woodpecker
+|Picus viridis|Žluna zelená|Green Woodpecker
+|Dryocopus martius|Datel černý|Black Woodpecker
+|Dendrocopos major|Strakapoud velký|Great Spotted Woodpecker
+|Dendrocopos syriacus|Strakapoud jižní|Syrian Woodpecker
+|Dendrocopos medius|Strakapoud prostřední|Middle Spotted Woodpecker
+|Dendrocopos leucotos|Strakapoud bělohřbetý|White-backed Woodpecker
+|Dendrocopos minor|Strakapoud malý|Lesser Spotted Woodpecker
+|Picoides tridactylus|Datlík tříprstý|Three-toed Woodpecker
+|Melanocorypha calandra|Kalandra zpěvná|Calandra Lark
+|Melanocorypha yeltoniensis|Kalandra černá|Black Lark
+|Galerida cristata|Chocholouš obecný|Crested Lark
+|Lullula arborea|Skřivan lesní|Woodlark
+|Alauda ervensis|Skřivan polní|Skylark
+|Eremophila alpestris|Skřivan ouškatý|Shore Lark
+|Riparia riparia|Břehule říční|Sand Martin
+|Ptyonoprogne (Hirundo) rupestris|Břehule skalní|Crag Martin
+|Hirundo rustica|Vlaštovka obecná|Swallow
+|Hirundo daurica|Vlaštovka skalní|Red-Rumped Swallow
+|Delichon urbica|Jiřička obecná|House Martin
+|Anthus richardi (novaeseelandiae)|Linduška velká|Richard's Pipit
+|Anthus campestris|Linduška úhorní|Tawny Pipit
+|Anthus trivialis|Linduška lesní|Tree Pipit
+|Anthus pratensis|Linduška luční|Meadow Pipit
+|Anthus cervinus|Linduška rudokrká|Red-throated Pipit
+|Anthus spinoletta|Linduška horská|Rock Pipit
+|Anthus petrosus|Linduška pobřežní (skalní)|<FONT color="red"><B>A</B></FONT>; R (2)
+|Motacilla flava|Konipas luční|Blue-headed Wagtail
+|Motacilla citreola|Konipas citrónový|Citrine Wagtail
+|Motacilla cinerea|Konipas horský|Grey Wagtail
+|Motacilla alba|Konipas bílý|White Wagtail
+|Bombycilla garrulus|Brkoslav severní|Waxwing
+|Cinclus cinclus|Skorec vodní|Dipper
+|Troglodytes troglodytes|Střízlík obecný|Wren
+|Prunella modularis|Pěvuška modrá|Dunnock
+|Prunella montanella|Pěvuška horská|Siberian Accentor
+|Prunella collaris|Pěvuška podhorní|Alpine Accentor
+|Tarsiger cyanurus|Modruška tajgová|Red-flanked Bluetail
+|Erithacus rubecula|Červenka obecná|Robin
+|Luscinia luscinia|Slavík tmavý|Thrush Nightingale
+|Luscinia megarhynchos|Slavík obecný|Nightingale
+|Luscinia svecica|Slavík modráček|Bluethroat
+|Phoenocurus ochruros|Rehek domácí|Black Redstart
+|Phoenocurus phoenocurus|Rehek zahradní|Redstart
+|Saxicola rubetra|Bramborníček hnědý|Whinchat
+|Saxicola torquata|Bramborníček černohlavý|Stonechat
+|Oenanthe oenanthe|Bělořit šedý|Wheatear
+|Oenanthe hispanica|Bělořit okrový|Black-eared Wheatear
+|Monticola saxatilis|Skalník zpěvný|Rock Thrush
+|Monticola solitarius|Skalník modrý|Blue Rock Thrush
+|Turdus torquatus|Kos horský|Ring Ouzel
+|Turdus merula|Kos černý|Blackbird
+|Turdus obscurus|Drozd plavý|Eyebrowed Thrush
+|Turdus naumanni|Drozd rezavý|Naumann´s Thrush
+|Turdus ruficollis|Drozd proměnlivý|Black-throated Thrush
+|Turdus pilaris|Drozd kvíčala|Fieldfare
+|Turdus philomelos|Drozd zpěvný|Song Thrush
+|Turdus iliacus|Drozd cvrčala|Redwing
+|Turdus viscivorus|Drozd brávník|Mistle Thrush
+|Turdus migratorius|Drozd stěhovavý|American Robin
+|Locustella naevia|Cvrčilka zelená|Grasshopper Warbler
+|Locustella fluviatilis|Cvrčilka říční|River Warbler
+|Locustella luscinioides|Cvrčilka slavíková|Savi´s Warbler
+|Cettia cetti|Cetie jižní|Cetti's Warbler
+|Acrocephalus melanopogon|Rákosník (Palašníček) tamaryškový|Moustached Warbler
+|Acrocephalus paludicola|Rákosník ostřicový|Aquatic Warbler
+|Acrocephalus schoenobaenus|Rákosník proužkovaný|Sedge Warbler
+|Acrocephalus palustris|Rákosník zpěvný|Marsh Warbler
+|Acrocephalus scirpaceus|Rákosník obecný|Reed Warbler
+|Acrocephalus arundinaceus|Rákosník velký|Great Reed Warbler
+|Hippolais pallida|Sedmihlásek šedý|Olivaceous Warbler
+|Hippolais icterina|Sedmihlásek hajní|Icterine Warbler
+|Hippolais polyglotta|Sedmihlásek švitořivý|Melodicous Warbler
+|Sylvia undata|Pěnice kaštanová|Dartford Warbler
+|Sylvia melanocephala|Pěnice bělohrdlá|Sardinian Warbler
+|Sylvia nisoria|Pěnice vlašská|Barred Warbler
+|Sylvia curruca|Pěnice pokřovní|Lesser Whitethroat
+|Sylvia communis|Pěnice hnědokřídlá|Whitethroat
+|Sylvia borin|Pěnice slavíková|Garden Warbler
+|Sylvia atricapilla|Pěnice černohlavá|Blackcap
+|Phylloscopus brehmii|Budníček iberský|<FONT color="red"><B>A</B></FONT>; R (1)
+|Phylloscopus trochiloides|Budníček zelený|Greenish Warbler
+|Phylloscopus proregulus|Budníček zlatohlavý|Pallas´s Warbler
+|Phylloscopus inornatus|Budníček skromný/pruhohlavý|Yellow-browed Warbler
+|Phylloscopus schwarzi|Budníček tlustozobý|Radde´s Warbler
+|Phylloscopus sibilatrix|Budníček lesní|Wood Warbler
+|Phylloscopus collybita|Budníček menší|Chiffchaff
+|Phylloscopus trochilus|Budníček větší|Willow Warbler
+|Regulus regulus|Králíček obecný|Goldcrest
+|Regulus ignicapillus|Králíček ohnivý|Firecrest
+|Muscicapa striata|Lejsek šedý|Spotted Flycatcher
+|Ficedula parva|Lejsek malý|Red-breasted Flycatcher
+|Ficedula albicollis|Lejsek bělokrký|Collared Flycatcher
+|Ficedula hypoleuca|Lejsek černohlavý|Pied Flycatcher
+|Panurus biarmicus|Sýkořice vousatá|Bearded Tit
+|Aegithalos caudatus|Mlynařík dlouhoocasý|Long-tailed Tit
+|Parus palustris|Sýkora babka|Marsh Tit
+|Parus montanus|Sýkora lužní|Willow Tit
+|Parus cristatus|Sýkora parukářka|Crested Tit
+|Parus ater|Sýkora uhelníček|Coal Tit
+|Parus caeruleus|Sýkora modřinka|Blue Tit
+|Parus cyanus|Sýkora azurová|Azure Tit
+|Parus major|Sýkora koňadra|Great Tit
+|Sitta europaea|Brhlík lesní|Nuthatch
+|Tichodroma muraria|Zedníček skalní|Wallcreeper
+|Certhia familiaris|Šoupálek dlouhoprstý|Treecreeper
+|Certhia brachydactyla|Šoupálek krátkoprstý|Short-toed Treecreeper
+|Remiz pendulinus|Moudivláček lužní|Penduline Tit
+|Oriolus oriolus|Žluva hajní|Golden Oriole
+|<A href="lcoll.htm">Lanius collurio</A>|Ťuhýk obecný|Red-backed Shrike
+|Lanius minor|Ťuhýk menší|Lesser Grey Shrike
+|Lanius excubitor|Ťuhýk šedý|Great Grey Shrike
+|Lanius senator|Ťuhýk rudohlavý|Woodchat Shrike
+|Garrulus glandarius|Sojka obecný|Jay
+|Pica pica|Straka obecná|Magpie
+|Cyanopica cyana|Straka modrá|Azure-Winged Magpie
+|Nucifraga caryocatactes|Ořešník kropenatý|Nutcracker
+|Pyrrhocorax graculus|Kavče žlutozobé|Alpine Chough
+|Corvus monedula|Kavka obecná|Jackdaw
+|Corvus frugilegus|Havran polní|Rook
+|Corvus corone|Vrána obecná|Carrion/Hooded Crow
+|Corvus corax|Krkavec velký|Raven
+|Sturnus vulgaris|Špaček obecný|Starling
+|Sturnus roseus|Špaček růžový|Rose-coloured Starling
+|Passer domesticus|Vrabec domácí|House Sparrow
+|Passer montanus|Vrabec polní|Tree Sparrow
+|Montifringilla nivalis|Pěnkavák sněžný|Snowfinch
+|Fringilla coelebs|Pěnkava obecná|Chaffinch
+|Fringilla montifringilla|Pěnkava jikavec|Brambling
+|Serinus serinus|Zvonohlík zahradní|Serin
+|Serinus citrinella|Zvonohlík citronový|Citril Finch
+|Carduelis chloris|Zvonek zelený|Greenfinch
+|Carduelis carduelis|Stehlík obecný|Goldfinch
+|Carduelis spinus|Čížek lesní|Siskin
+|Carduelis cannabina|Konopka obecná|Linnet
+|Carduelis flavirostris|Konopka žlutozobá|Twite
+|Carduelis flammea|Čečetka zimní|Redpoll
+|Carduelis hornemanni|Čečetka bělavá|Arctic Redpoll
+|Loxia leucoptera|Křivka bělokřídlá|Two-barred Crossbill
+|Loxia curvirostra|Křivka obecná|Crossbill
+|Loxia pytyopsittacus|Křivka velká|Parrot Crossbill
+|Carpodacus erythrinus|Hýl rudý|Scarlet Rosefinch
+|Pinicola enucleator|Hýl křivčí|Pine Grosbeak
+|Pyrrhula pyrrhula|Hýl obecný|Bullfinch
+|Coccothraustes coccothraustes|Dlask tlustozobý|Hawfinch
+|Calcarius lapponicus|Strnad laponský (severní)|Lapland Bunting
+|Plectrophenax nivalis|Sněhule severní|Snow Bunting
+|Emberiza leucocephalos|Strnad bělohlavý|Pine Bunting
+|Emberiza citrinella|Strnad obecný|Yellowhammer
+|Emberiza cirlus|Strnad cvrčivý|Cirl Bunting
+|Emberiza cia|Strnad viničný|Rock Bunting
+|Emberiza hortulana|Strnad zahradní|Ortolan Bunting
+|Emberiza rustica|Strnad rolní|Rustic Bunting
+|Emberiza pusilla|Strnad malinký|Little Bunting
+|Emberiza aureola|Strnad obojkový|Yellow-breasted Bunting
+|Emberiza schoeniclus|Strnad rákosní|Reed Bunting
+|Emberiza bruniceps|Strnad hnědohlavý|Red-headed Bunting
+|Emberiza melanocephala|Strnad černohlavý|Black-headed Bunting
+|Miliaria calandra|Strnad luční|Corn Bunting
